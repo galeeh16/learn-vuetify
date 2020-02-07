@@ -6,15 +6,15 @@
             <template v-slot:default>
                 <thead>
                     <tr>
-                        <th class="text-left">No</th>
-                        <th class="text-left">Title</th>
-                        <th class="text-left">Body</th>
+                        <th class="text-center">No</th>
+                        <th class="text-center">Title</th>
+                        <th class="text-center">Body</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr v-for="(post, key) in filteredPosts" :key="post.id">
                         <td>{{ key + 1 }}</td>
-                        <td>{{ post.title }}</td>
+                        <td v-rainbow>{{ post.title|toCapitalizeFirstWord }}</td>
                         <td>{{ post.body }}</td>
                     </tr>
                 </tbody>
@@ -22,6 +22,13 @@
         </v-simple-table>
     </div>
 </template>
+
+<style scoped>
+    table thead tr th {
+        font-size: 14px;
+        /* text-align: center; */
+    }
+</style>
 
 <script>
 export default {
