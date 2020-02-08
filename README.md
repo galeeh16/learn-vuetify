@@ -24,4 +24,4 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Preview 
-![alt text](https://github.com/galeeh16/learn-vuetify/blob/master/src/assets/logo.png)
+![alt text](https://github.com/galeeh16/learn-vuetify/blob/master/src/assets/Capture.PNG)
