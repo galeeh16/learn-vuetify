@@ -1,5 +1,11 @@
 # learn-vuetify
 
+### Made with Vue
+![alt text](https://github.com/galeeh16/learn-vuetify/blob/master/src/assets/logo.png)
+
+### Preview 
+![alt text](https://github.com/galeeh16/learn-vuetify/blob/master/src/assets/Capture.PNG)
+
 ## Project setup
 ```
 yarn install
@@ -22,6 +28,3 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-### Preview 
-![alt text](https://github.com/galeeh16/learn-vuetify/blob/master/src/assets/Capture.PNG)
