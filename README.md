@@ -1,7 +1,6 @@
 # learn-vuetify
 
-### Made with Vue
-![alt text](https://github.com/galeeh16/learn-vuetify/blob/master/src/assets/logo.png)
+### Author : Galih Anggoro Jati
 
 ### Preview 
 ![alt text](https://github.com/galeeh16/learn-vuetify/blob/master/src/assets/Capture.PNG)
